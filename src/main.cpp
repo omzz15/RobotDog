@@ -26,23 +26,5 @@ void setup(){
 }
 
 void loop(){
-    Serial.println("loop start");
-
-    s.setMoveAndRunTillDone(MOVE_TO_POS, 0);
-
-    //flashLed(100);
-
-    s.setMoveAndRunTillDone(MOVE_TO_POS, 180);
-
-    //flashLed(100);
-
-    s.setMoveAndRunTillDone(MOVE_TO_POS_WITH_TIME, 0, 2);
-
-    //flashLed(100);
-
-    s.setMoveAndRunTillDone(MOVE_TO_POS_AT_RATE, 180, 10);
-
-    //flashLed(100);
-
-    Serial.println("loop end");
+    
 }
