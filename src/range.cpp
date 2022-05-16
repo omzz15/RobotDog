@@ -1,4 +1,3 @@
-#pragma once
 class Range
 {
 public:
@@ -8,6 +7,13 @@ public:
     {
         this->min = min;
         this->mid = mid;
+        this->max = max;
+    }
+
+    Range(float min, float max)
+    {
+        this->min = min;
+        this->mid = min + max / 2.f;
         this->max = max;
     }
 
